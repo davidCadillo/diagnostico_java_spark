@@ -6,11 +6,11 @@ import static org.apache.spark.sql.functions.col;
 
 public class Field {
 
+    private String name;
+
     Field(String name) {
         this.name = name;
     }
-
-    private String name = "field";
 
     public String getName() {
         return name;
